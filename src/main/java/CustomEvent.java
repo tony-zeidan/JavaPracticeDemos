@@ -3,9 +3,15 @@ import java.util.EventObject;
 /**
  * This class represents a custom event that can
  * be thrown by the main observable.
+ *
+ * @author Tony Zeidan
+ * @version 12/20/2020
  */
 public class CustomEvent extends EventObject {
 
+    /**
+     * The command that comes packaged with the event.
+     */
     private String command;
 
     /**

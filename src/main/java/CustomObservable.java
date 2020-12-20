@@ -1,5 +1,8 @@
 /**
  * This interface contains the method that any observer should implement.
+ *
+ * @author Tony Zeidan
+ * @version 12/19/2020
  */
 public interface CustomObservable {
     /**
